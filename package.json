@@ -1,0 +1,21 @@
+{
+  "name": "validate",
+  "version": "1.0.0",
+  "description": "A helper library for validating emails, Mobile numbers, passwords and generic strings",
+  "type": "module",
+  "main": "validate.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "author": "Benny Thadikaran",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "jest-environment-jsdom": "^29.5.0"
+  }
+}
